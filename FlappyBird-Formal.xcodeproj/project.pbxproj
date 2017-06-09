@@ -17,7 +17,6 @@
 		BC99165119FDE32A002A29ED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC99163619FDE32A002A29ED /* Foundation.framework */; };
 		BC99165219FDE32A002A29ED /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC99163A19FDE32A002A29ED /* UIKit.framework */; };
 		BC99165A19FDE32A002A29ED /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC99165819FDE32A002A29ED /* InfoPlist.strings */; };
-		BC99165C19FDE32A002A29ED /* FlappyBird_FormalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC99165B19FDE32A002A29ED /* FlappyBird_FormalTests.m */; };
 		BC9916A619FDE339002A29ED /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99166719FDE339002A29ED /* background.png */; };
 		BC9916A719FDE339002A29ED /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99166819FDE339002A29ED /* background@2x.png */; };
 		BC9916A819FDE339002A29ED /* background_alt.png in Resources */ = {isa = PBXBuildFile; fileRef = BC99166919FDE339002A29ED /* background_alt.png */; };
@@ -106,7 +105,6 @@
 		BC99164E19FDE32A002A29ED /* FlappyBird-FormalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "FlappyBird-FormalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC99165719FDE32A002A29ED /* FlappyBird-FormalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FlappyBird-FormalTests-Info.plist"; sourceTree = "<group>"; };
 		BC99165919FDE32A002A29ED /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BC99165B19FDE32A002A29ED /* FlappyBird_FormalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlappyBird_FormalTests.m; sourceTree = "<group>"; };
 		BC99166719FDE339002A29ED /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
 		BC99166819FDE339002A29ED /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
 		BC99166919FDE339002A29ED /* background_alt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background_alt.png; sourceTree = "<group>"; };
@@ -254,7 +252,6 @@
 		BC99165519FDE32A002A29ED /* FlappyBird-FormalTests */ = {
 			isa = PBXGroup;
 			children = (
-				BC99165B19FDE32A002A29ED /* FlappyBird_FormalTests.m */,
 				BC99165619FDE32A002A29ED /* Supporting Files */,
 			);
 			path = "FlappyBird-FormalTests";
@@ -540,7 +537,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC99165C19FDE32A002A29ED /* FlappyBird_FormalTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
